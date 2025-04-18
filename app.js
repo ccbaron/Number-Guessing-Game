@@ -44,7 +44,7 @@ function checkGuess(event) {
         remainingGuesses--;
         remainingGuessesDisplay.textContent = remainingGuesses;
 
-        // Dar pista
+        // Dar pista, mayor o menor
         if (userGuess < randomNumber) {
             messageDisplay.textContent = 'El número es mayor';
         } else {
